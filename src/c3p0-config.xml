@@ -4,10 +4,13 @@
 
   <named-config name="websource"> 
   
-  	<property name="user">root</property>
-    <property name="password">lang</property>
-    <property name="jdbcUrl">jdbc:mysql:///share</property>
-    <property name="driverClass">com.mysql.jdbc.Driver</property>
+  	<!-- 数据库账号 eg: root -->
+	<property name="user">root</property>
+	<!-- 数据库密码 eg: lang -->
+	<property name="password">lang</property>
+	<!-- 数据库地址，本例子为本地地址，用远程的地址 jdbc:mysql://192.168.0.1:3306/share  share为数据库名称 -->
+	<property name="jdbcUrl">jdbc:mysql:///share</property>
+	<property name="driverClass">com.mysql.jdbc.Driver</property>
   
   	<!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 --> 
     <property name="acquireIncrement">2</property>
