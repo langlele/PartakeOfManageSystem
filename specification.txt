@@ -1,0 +1,15 @@
+分享知识管理系统
+分享知识，
+选择自己组，分享知识
+分享结束选出下一位分享者
+
+IE, tomact v6.0, Eclipse, JDK.1.7; jQuery-1.7.2.js(主要）
+
+表：id 
+   Name : 分享了的人
+   preName : Name 的上一个人
+   nextName : name 的下一个人
+   
+   
+   当选择本人信息时 插入 一条记录Name,与 preName
+ 选择好下一个分享人时 更新 以name为条件更新 nextName

@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+body{
+	overflow: hidden; 
+}
+div.dashed{
+	padding:20px;
+	border: 1px solid #888;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+div.dashed font{
+	font-weight:bold;
+	FONT-SIZE: 25px;
+	WIDTH: 100%; 
+	LINE-HEIGHT: 150%; 
+}
+div.head{
+}
+div.head font{
+	font-weight:bold;
+	FONT-SIZE: 50px;
+	WIDTH: 100%; 
+	LINE-HEIGHT: 150%; 
+	FONT-FAMILY: 黑体
+}
+div.line{
+	height: 20px;
+}
+div.box{
+	padding:20px 10px 10px 10px;
+	border: 10px dotted #888;	
+	border-radius: 20px;		
+	-moz-border-radius: 100px;
+	overflow-y: scroll;
+	height:400px;
+}
+table.heid{
+	position:relative;
+	border-collapse: separate;
+	border-spacing: 10px;
+	empty-cells: show;
+}
+table.box{
+   	width: 500px;
+	padding: 0;
+	margin: 0;
+}
+td.box {
+	height:40px;
+ 	background: #F5FAFA;
+	color: #797268;
+}
+
+td.alt {
+  background: #F5FAFA;
+	color: #797268;
+}
